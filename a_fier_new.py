@@ -113,9 +113,9 @@ plt.colorbar()
 
 #code for spotify get meta
 
-username = "o7dgqfjas82wkfhhwljkw7w7b"
-CLIENT_ID = '56585547a2104e1bac19f149e1e3db0f'#set at your developer account
-CLIENT_SECRET = 'a13333899bd14cbc895eed52e9cf6484' #set at your developer account
+username = 'qnwv65t11cplaz4dikhl4mjgi'
+CLIENT_ID = '07f9611e9b234caea4fcee288da82e61'#set at your developer account
+CLIENT_SECRET = '087b1a26a1294bc58a0a89d4a29463e4' #set at your developer account
 REDIRECT_URI = 'http://localhost/' #set at your developer account,
 SCOPE = 'user-library-read'
 #erase cache
@@ -273,7 +273,7 @@ if token:
                        
         # 寫入CSV二維表格
         import csv
-        with open('yourOutputTest.csv', 'w', newline='') as csvFile:
+        with open('yourOutputTest2.csv', 'w', newline='') as csvFile:
             writer = csv.writer(csvFile)
             Table = [['Song Name', 'Singer', 'tempo', 'energy', 'loudness', 'danceability', 'valence', 'acousticness',  'happy', 'angry', 'sad', 'relax', 'Mood Class']]
             for i in range(len(titledata)):
